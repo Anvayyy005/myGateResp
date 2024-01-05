@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Gate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img class="logo" src="mygatelogo.png" alt="logo">
+        </div>
+       
+        <div class="container1">
+                <a href="#">Society Solutions</a>
+                <a href="#">Brand Solutions</a>
+                <a href="#">About us</a>
+                <a href="#">Login</a>
+                <button class="demo" onclick="demoButtonClicked()">Book a demo</button>
+        </div>
+       
+    </div>
+    <div class="bigdiv">
+        <div class="abc">
+            <div class="big-text">
+                <h1>Experience community living at its best</h1>
+            </div>
+            <div class="paragraph">
+                <p>Building secure, connected and thriving societies</p>
+            </div>
+        
+            <div class="connect-button">
+                <button class="connect" onclick="connectButtonClicked()">Connect with us</button>
+            </div>
+        </div>
+
+        <div class="image">
+            <img class="artboard" src="artboard.png" alt="artboard-img">
+        </div>
+    </div>
+   
+    <div class="three-elements">
+        <div class="first-element">
+            <div class="img1">
+                <img class="image1" src="img1.png" alt="home-img">
+            </div>
+            <div class="first-text"> <h2>25000+</h2> <p>societies</p></div>
+        </div>
+
+        <div class="second-element">
+            <div class="img2">
+                <img class="image2" src="img2.png" alt="user-img">
+            </div>
+            <div class="second-text"><h2>3.5 million+</h2><p>homes</p></div>
+        </div>
+
+        <div class="third-element">
+            <div class="img3">
+                <img class="image3" src="img3.png" alt="location-img">
+            </div>
+            <div class="third-text"><h2>27 major</h2> <p>cities</p></div>
+        </div>
+    </div>
+   
+
+    <center class="center-part">
+        <div class="complex">
+            <h2>We Simplify the Complex!</h2>
+        </div>
+        <div>
+            <p class="light-text">For Everything connected with the housing society, we have a digital solution</p>
+        </div>
+
+        <div class="solution">
+            <h2>A comprehensive society solution!</h2>
+        </div>
+        <div>
+            <p>We're always innovating so you always have the best</p>
+            <hr>
+        </div>
+    </center>
+
+
+    <div class="accordion">
+
+        <div class="accordion-item" onclick="toggleAccordion('section1')"><b>Better Security</b></div>
+        <div class="accordion-content" id="section1">
+            <p class="para-text">The original visitor management solution, tested over 1 billion times every year.</p>
+        </div>
+        <hr>
+    
+        <div class="accordion-item" onclick="toggleAccordion('section2')"><b>Community Connect</b></div>
+        <div class="accordion-content" id="section2">
+            <p class="para-text">Get to know your neighbours, discover society events, find a maid or gym instructor & so much more.</p>
+        </div>
+        <hr>
+    
+        <div class="accordion-item" onclick="toggleAccordion('section3')"><b>Expert Home Services</b></div>
+        <div class="accordion-content" id="section3">
+            <p class="para-text">The most reliable professionals from Urban Company are only a click away on the MyGate app.</p>
+        </div>
+        <hr>
+        
+    
+        <div class="accordion-item" onclick="toggleAccordion('section4')"><b>Smart Payments</b></div>
+        <div class="accordion-content" id="section4">
+            <p class="para-text">Save by paying society dues, month's rent and even utility bills on the app with our amazing offers.</p>
+        </div>
+        <hr>
+
+    
+        <div class="accordion-item" onclick="toggleAccordion('section5')"><b>Neighbourhood Discovery</b></div>
+        <div class="accordion-content" id="section5">
+            <p class="para-text">Find out everything that's going on around you, from the best home chef to the local football tournament.</p>
+        </div>
+        <hr>
+
+
+    </div>
+    
+    
+    
+
+    <center>
+        <h1 style="margin-top: 70px; margin-bottom: 50px;">Book a demo</h1>
+
+        <form action="#"> 
+            <div class="row1">
+                <input class="name" type="text" placeholder="Name">
+                <input class="mobile" type="text" placeholder="Mobile">
+            </div>
+
+            <div class="row2">
+                <input class="email" type="text" placeholder="Email ID">
+                <input class="society" type="text" placeholder="Society Name">
+            </div>
+
+            <div class="row3">
+                <select class="option" name="dropdown" id="dropdown">
+                    <option value="0"></option>
+                    <option class="a123" value="1">Committee Member</option>
+                    <option class="a123" value="2">Resident</option>
+                    <option class="a123" value="3">Facility Manager</option>
+                    <option class="a123" value="4">Security Agency</option>
+                    <option class="a123" value="5">Other</option>
+                    
+                </select>
+               
+                <input class="city" type="text" placeholder="City">
+            </div>
+
+            <input class="submit-button" type="submit">
+        </form>
+           
+    </center>
+
+    <div class="lower-body">
+        <h2 style="margin-bottom: 10px; margin-top: 50px;">MyGate: India's best housing society management app</h2>
+        <p>MyGate, the No. 1 community management app, ensures the safety and convenience of gated societies. The software for gated society offers numerous innovative features to help simplify daily chores and improve security standards around gated communities through its Security, ERP & Accounting Management modules.</p>
+        <p style="margin-top: 5px; margin-bottom: 40px;"> The app was built as a comprehensive apartment management system, keeping in mind every single stakeholder of a gated community: security guards, residents, management committee, facility managers and vendors.</p>
+        <h2 style="margin-bottom: 40px;">MyGate Services</h2>
+        <p style="margin-bottom: 5px;"><b>Apartment security management:</b></p>
+        <p style="margin-bottom: 10px;">MyGate's security management system simplifies communication between residents and the main gate. It enables residents to notify guards that they are expecting a visitor or delivery and guards to seek the permission of a resident when someone comes unannounced. This seemingly simple connection can bring powerful change to any community. Benefits as a security management app: Convenient verification of all visitors, End-to-end management of all daily staff and Smart workflows to manage deliveries</p>
+        <p style="margin-bottom: 5px;"><b>Community ERP:</b></p>
+        <p style="margin-bottom: 10px;">All management committee members get access to a configurable dashboard from where accounts, complaints, communications, staff attendance and amenities can be managed. Think of it as a control center for your society that's accessible from anywhere. Benefits as a community management app: Manage accounts & payments on a single dashboard, get real-time updates on support tickets and keep the community on the same page via MyGate ERP.</p>
+        <p style="margin-bottom: 5px;"><b>Home Services:</b></p>
+        <p style="margin-bottom: 40px;">Bringing convenience to your homes. MyGate home services provide you to avail day-to-day services like pest control, bathroom cleaning, airport taxi, deep cleaning, appliance repair, laundry services and many more.</p>
+        <h2 style="margin-bottom: 40px;">Data Privacy & Protection</h2>
+        <p style="margin-bottom: 10px;">MyGate is a safe to use app and has its data security policies in place. This housing society management system gives users complete control over their personal information. MyGate has implemented GDPR guidelines, is compliant with ISO 27001, and ensures completely transparent and legally compliant information collection at all levels. The society maintenance app ensures that information collection is purpose oriented, clearly defined and maintained only for as long as it is necessary to fulfil the purpose.</p>
+
+    </div>
+    
+    <footer>
+        <div>Solutions</div>
+        <div>Company</div>
+        <div>Contact</div>
+        <div>Download our App</div>
+    </footer>
+
+
+    <script>
+
+        
+function demoButtonClicked(){
+                alert("Booked a free demo!");
+            }
+
+            function connectButtonClicked(){
+                alert("Connected!");
+            }
+        function toggleAccordion(sectionId) {
+            const section = document.getElementById(sectionId);
+            section.style.display = section.style.display === 'none' ? 'block' : 'none';
+    
+            const activeItem = document.querySelector('.accordion-item.active');
+            if (activeItem) {
+                activeItem.classList.remove('active');
+            }
+    
+            const clickedItem = document.querySelector(`.accordion-item[onclick="toggleAccordion('${sectionId}')"]`);
+            clickedItem.classList.add('active');
+
+
+
+        }
+    </script>
+
+</body>
+</html>
